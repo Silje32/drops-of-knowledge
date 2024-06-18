@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import SingleDetail from "./pages/SingleDetail";
+import HomeDetail from "./pages/HomeDetail";
 import NaturalFibre from "./pages/NaturalFibre";
 import NaturalDetail from "./pages/NaturalDetail";
 import SemiSyntheticFibre from "./pages/SemiSyntheticFibre";
@@ -20,7 +20,7 @@ import GlobalStyles from "./styles/GlobalStyles";
         <Routes>
           <Route path="/" element={<Layout />} >
             <Route index element={<Home />} />
-            <Route path="/home/:id" element={<SingleDetail />} />
+            <Route path="/home/:id" element={<HomeDetail />} />
             <Route path="natural" element={<NaturalFibre />} />
             <Route path="/natural/:id" element={<NaturalDetail />} />
             <Route path="semi" element={<SemiSyntheticFibre />} />
