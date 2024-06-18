@@ -14,13 +14,13 @@ function Nav() {
                  <LogoImg />
                  <Header />   
                 <li>
-                  <NavLink to="/home">HOME</NavLink>
+                  <NavLink to="/">HOME</NavLink>
                 </li>
                 <li>
                   <NavLink to="/natural">NATURAL</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/semi-synthetic">SEMI SYNTHETIC</NavLink>
+                  <NavLink to="/semi">SEMI SYNTHETIC</NavLink>
                 </li>
                 <li>
                   <NavLink to="/synthetic">SYNTHETIC</NavLink>
