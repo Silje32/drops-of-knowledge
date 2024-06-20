@@ -11,12 +11,11 @@ function LogoImg() {
 
     return (
         <>
-          <StyledLogo src={Logo}  alt="Logo" /> 
-            <div>
-              <Link to={"/home"}>
+          <div>
+              <Link to={"/"}>
                  <StyledLogo src={Logo}  alt="Logo" onClick={onLogoClick} />
               </Link>
-            </div>   
+          </div>   
         </> 
     );
   }
